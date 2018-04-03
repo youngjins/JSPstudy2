@@ -12,7 +12,7 @@
 		Enumeration<String> en = application.getAttributeNames();
 		out.println(request.getParameter("abcd").toUpperCase());
 	%>
-	<ul>Application 속성에 있는 것들</ul>
+	<ul>Application 속성에 있는 것들dd</ul>
 	
 	<%
 		while(en.hasMoreElements()){
@@ -21,6 +21,10 @@
 			out.println("<li>" + key + "=" + obj.toString() + "</li>");
 		}
 	%>
+	
+	
+	
+	
 	
 </body>
 </html>
